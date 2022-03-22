@@ -1,36 +1,21 @@
-[![Build Status](https://badge.buildkite.com/a2ced4f1160fa02aa8b735e7edb80f8ef787a299963ff88942.svg?branch=master)](https://buildkite.com/helium/miner)
+Mining Software Emulator For Helium Mining
 
-# miner quickstart
+- Supports Antenna On Lan
+- Supports Antenna to USB Converters
+- Supports Native Motherboard Setups
+- Tested With SenseCAP M1 Outdoor Enclosure Kit SKU:910133
 
-Miner for helium blockchain
+https://cdn.shopify.com/s/files/1/0177/8784/6756/products/Sensecap_enclosure_Inclusion_Thumbnail_757x@2x.progressive.png?v=1635336387
 
-## Build
+Compability
 
-    $ make
+-Fiberglass Antenna Kit for Helium Hotspot SKU:915039
+-5.8dBi Fiberglass Antenna Bundle SKU:915015
+-8dBi Fiberglass Antenna Bundle SKU:916009
+-SenseCAP M1 Outdoor Enclosure Kit SKU:910133
 
-## Typecheck
 
-    $ make typecheck
 
-## Test
-
-    $ make test
-
-# docker
-
-Build a miner-test image locally:
-
-```bash
-docker build -t helium:miner-test -f .buildkite/scripts/Dockerfile-xxxNN .
-```
-
-Note that Miner for AMD64 requires AVX support on the processor due to the erasure library.
-
-It is possible to build ARM64 images from an AMD64 machine. Install the following:
-
-```bash
-sudo apt-get install qemu binfmt-support qemu-user-static # Install the qemu packages
-```
 
 ## Installing Miner from Source
 
