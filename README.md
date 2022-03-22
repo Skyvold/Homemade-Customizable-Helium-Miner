@@ -5,7 +5,7 @@ Mining Software Emulator For Helium Mining
 - Supports Native Motherboard Setups
 - Tested With SenseCAP M1 Outdoor Enclosure Kit SKU:910133
 
-https://cdn.shopify.com/s/files/1/0177/8784/6756/products/Sensecap_enclosure_Inclusion_Thumbnail_757x@2x.progressive.png?v=1635336387
+![miner kit](https://cdn.shopify.com/s/files/1/0177/8784/6756/products/Sensecap_enclosure_Inclusion_Thumbnail_757x@2x.progressive.png?v=1635336387)
 
 Compability
 
@@ -14,8 +14,21 @@ Compability
 -8dBi Fiberglass Antenna Bundle SKU:916009
 -SenseCAP M1 Outdoor Enclosure Kit SKU:910133
 
+Setup
 
+-Wait For Database Download
+-Continue With In App Setup
+-Antenna Before Miner
 
+Config Example
+[Homemade Helium Miner]=1.00
+[AntennaKITSKU]=910133
+[MotherboardGen]=2
+[MotherboardIN1]=0xF2
+[MotherboardIN2]=0x1E
+[MotherboardIN3]=0x00
+[HotspotID]=FirstBoot
+[HNTWallet]=FirstBoot
 
 ## Installing Miner from Source
 
